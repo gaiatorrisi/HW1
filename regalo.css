@@ -1,0 +1,147 @@
+nav a{
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: double;
+    transition-duration:1s;
+}
+nav a:visited{
+    color:papayawhip
+}
+nav a:link{
+    color:papayawhip;
+}
+nav a:hover{
+    color:palevioletred;
+    background-color:papayawhip;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:space-evenly;
+    height: 60px;
+    background-color:rgba(216, 112, 147, 0.9);
+    font-family: 'Roboto', sans-serif,Arial;
+    font-size: large; 
+    font-style:normal;
+    text-align: center;
+    z-index:1;
+}
+@media (max-width: 500px) {
+    nav{
+      font-size: small;
+    }
+}
+
+header{
+    padding: 1em;
+    height: 3.5em;
+    font-family: 'Dancing Script', cursive;
+    font-style:normal;
+    font-size:3em;
+    font-weight: normal;
+    color:palevioletred;
+    text-align: center;
+}
+@media (max-width: 500px) {
+    header {
+      height: 250px;
+      font-size: x-large;
+    }
+}
+
+body{
+    background-color:papayawhip;
+}
+section{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height:1300px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-style:italic;
+    text-align: center;
+}
+
+p {
+    color: palevioletred;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:1.5em;
+    font-style:italic;
+    text-align: center;
+    font-weight: bold;
+} 
+
+.base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20em;
+    height: 20em;
+    background-color:papayawhip;
+    color:palevioletred;
+    padding: 3em;
+
+}
+.base img {
+    width:20em;
+    height: 20em;
+}
+
+#submit {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:palevioletred;
+    padding: 5px;
+    border: solid 3px palevioletred;
+    background-color: rgba(255, 192, 203, 0.726);
+    border-radius: 10px;
+}
+@media(max-width:500px) {
+    .base{
+        height: 40%;
+        width: 95%;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#ricerca_regalo{
+    color:palevioletred;
+    background-color: papayawhip;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-color:palevioletred;
+    border-width: 0.2em;
+}
+#box_ricerca{
+    background-color:palevioletred;
+    border-color:lemonchiffon ;
+    border-style: dotted;
+    border-width: 1em;
+    width: 80%;
+    height: 40em;
+    margin: 5em;
+}
+#box_ricerca p, #box_ricerca h1{
+    color: lemonchiffon;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+
+
+
